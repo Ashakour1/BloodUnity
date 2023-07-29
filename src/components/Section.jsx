@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 const Section = ({infor}) => {
     return (
 
@@ -10,7 +11,7 @@ const Section = ({infor}) => {
          </div>
             <div className="info">
                 <p>{infor.hospitalName}</p>
-                <button>Apply</button>
+                <button><Link to="contact">Apply</Link></button>
             </div>
             
             
