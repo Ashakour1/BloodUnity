@@ -6,7 +6,7 @@ const Section = ({infor}) => {
         <div className="card">
          <img src={infor.hospitalimage} alt="" />
          <div className="location">
-            <p>{infor.hospitalLocation}</p>
+            <p>Location :{infor.hospitalLocation}</p>
          </div>
             <div className="info">
                 <p>{infor.hospitalName}</p>

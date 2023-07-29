@@ -71,7 +71,7 @@ a{
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  background-color: #81d4fa;
+  background-color:#006aff;
 }
 .card img{
     width: 100%;
@@ -88,7 +88,10 @@ a{
 .info button{
     padding: 10px 10px;
     border-radius: 10px;
-    background-color: #006aff;
-    color: white;
+    background-color: white;
+    color: #006aff;
     border: none;
+}
+.card p{
+    color: #ffffff;
 }
