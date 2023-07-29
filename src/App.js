@@ -15,7 +15,7 @@ const App = () => {
             <Route path="/donate" element={<Donate/>}/>
             <Route path="/contact" element={<Contect/>}/>
         </Routes>
-        <Contact/>
+       
         </>
        
     )
