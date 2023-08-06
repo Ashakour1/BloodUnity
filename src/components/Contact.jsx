@@ -35,6 +35,10 @@ const Contact = () => {
         <input type="text" name="user_name" />
         <label>Email</label>
         <input type="email" name="user_email" />
+        <label>Location</label>
+        <input type="text" name="user_location" />
+        <label>State</label>
+        <input type="text" name="user_state" />
         <label>Message</label>
         <textarea name="message" />
         <input type="submit" value="Send" />
@@ -52,6 +56,7 @@ const StyledContactForm = styled.div`
   form {
     display: flex;
     align-items: flex-start;
+    justify-content " center";
     flex-direction: column;
     width: 100%;
     font-size: 16px;
@@ -91,8 +96,9 @@ const StyledContactForm = styled.div`
 
     input[type="submit"] {
       margin-top: 2rem;
+      width : 420px;
       cursor: pointer;
-      background: rgb(249, 105, 14);
+      background: blue;
       color: white;
       border: none;
     }
